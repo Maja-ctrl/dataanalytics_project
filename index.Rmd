@@ -1,7 +1,9 @@
 ---
-title: "My Website"
+title: "Data Analytics for Psychology and Business"
 description: |
   Welcome to the website. I hope you enjoy it!
+  author: "Fabian D. Mueller"
+date: "`r Sys.Date()`"
 site: distill::distill_website
 ---
 
@@ -21,5 +23,9 @@ library(ggplot2)
 ggplot(sleepstudy,aes(x=Days, y=Reaction, group=Subject, color=Subject) +
          geom_line() + 
          theme_minimal()
+       
+
   
 
+
+  
